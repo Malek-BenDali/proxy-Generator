@@ -38,8 +38,6 @@ const translatorProxy = new Proxy(translator, {
 				frenshCounter.next().done
 					? console.log(`vamos berlin`)
 					: translate(target, prop)
-
-				break
 		}
 	},
 })
@@ -49,7 +47,7 @@ translatorProxy.espagnol
 translatorProxy.espagnol
 translatorProxy.espagnol
 translatorProxy.deutsh
-translatorProxy.deutsh
-translatorProxy.deutsh
 translatorProxy.frensh
+translatorProxy.deutsh
+translatorProxy.deutsh
 translatorProxy.frensh
